@@ -1,0 +1,10 @@
+第一步：安裝工具
+回到 VS Code 的 TERMINAL，執行：
+powershellnpm install -g firebase-tools
+（前提是你電腦已經有 Node.js——如果沒有，先跟我說，我們先裝 Node）
+裝完後登入你的 Google 帳號：
+powershellfirebase login
+這會跳出瀏覽器視窗，選你要用來管理這個專案的 Google 帳號登入、同意授權。
+第二步：安裝 FlutterFire CLI
+powershelldart pub global activate flutterfire_cli
+你先做這兩步，把畫面結果（尤其是 firebase login 有沒有成功顯示登入的帳號）貼給我，我們再進下一步：去 Firebase 官網建立專案，然後把它跟你的 Flutter App 連起來。
