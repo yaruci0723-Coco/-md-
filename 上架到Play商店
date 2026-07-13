@@ -1,4 +1,13 @@
-第一步：安裝工具
+第一步：安裝工具安裝 Node.js
+
+打開瀏覽器，前往：https://nodejs.org/
+會看到兩個版本，選擇**左邊寫「LTS」**的那個（穩定長期支援版），點下去下載
+下載完成後執行安裝檔（.msi 檔），一路照預設點「Next」→「Next」→「Install」就好，不用改任何設定
+安裝完成後關閉目前的 TERMINAL 視窗（這點很重要，因為新裝的程式要重開終端機才抓得到）
+
+
+
+
 回到 VS Code 的 TERMINAL，執行：
 powershellnpm install -g firebase-tools
 （前提是你電腦已經有 Node.js——如果沒有，先跟我說，我們先裝 Node）
