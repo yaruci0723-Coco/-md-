@@ -1,19 +1,14 @@
-第一步：安裝工具安裝 Node.js
-
-打開瀏覽器，前往：https://nodejs.org/
-會看到兩個版本，選擇**左邊寫「LTS」**的那個（穩定長期支援版），點下去下載
-下載完成後執行安裝檔（.msi 檔），一路照預設點「Next」→「Next」→「Install」就好，不用改任何設定
-安裝完成後關閉目前的 TERMINAL 視窗（這點很重要，因為新裝的程式要重開終端機才抓得到）
+要找人來測試的名單。
+連續14天，共12位測試者。
 
 
+招攬：
+📢【徵求教檢App測試志工】
 
+哈囉大家好，我是正在準備教檢/研究所的學生，最近自己動手做了一個教檢刷題 App「教檢必勝」，收錄近十年教檢考古題，有錯題本間隔複習、每日打卡等功能。
 
-回到 VS Code 的 TERMINAL，執行：
-powershellnpm install -g firebase-tools
-（前提是你電腦已經有 Node.js——如果沒有，先跟我說，我們先裝 Node）
-裝完後登入你的 Google 帳號：
-powershellfirebase login
-這會跳出瀏覽器視窗，選你要用來管理這個專案的 Google 帳號登入、同意授權。
-第二步：安裝 FlutterFire CLI
-powershelldart pub global activate flutterfire_cli
-你先做這兩步，把畫面結果（尤其是 firebase login 有沒有成功顯示登入的帳號）貼給我，我們再進下一步：去 Firebase 官網建立專案，然後把它跟你的 Flutter App 連起來。
+目前在 Google Play 封閉測試階段，需要 12 位以上的 Android 手機使用者協助測試 14 天（不用每天用，但希望能偶爾打開看看），就能幫我解鎖正式上架 🙏
+
+適合對象：正在準備教檢、或對教育學程有興趣的 Android 手機使用者
+
+有興趣的話請留言或私訊，我會附上加入連結，測試完全免費，也歡迎順便給我回饋意見，感激不盡！
